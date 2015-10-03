@@ -18,9 +18,10 @@ $white: (100: #FFFFFF, 95: rgba(255, 255, 255, 0.95), 80: rgba(255, 255, 255, 0.
 $colors: (primary: #337AB7, success: #5CB85C, info: #5CB85C, warning: #5CB85C, danger: #5CB85C);
 
 // Theme Colors
-$accent: map-get($colors, aqua);
+$accent: #3498DB;
 
 // Base Setting
+$base-background: #F4F4F4;
 $base-color: map-get($black, 60);
 $base-font-family: $body-font, sans-serif;
 $base-font-size: 14px;
