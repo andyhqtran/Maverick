@@ -4,4 +4,19 @@
   height: 443px;
   margin: 0 auto;
   padding: 92px 22px 95px 25px;
+  overflow: hidden;
+
+  // Screen
+  .screen {
+    height: 100%;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
 }
