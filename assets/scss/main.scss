@@ -2,6 +2,8 @@
 
 @import "vendors/reset";
 
+@import "../../bower_components/font-awesome/scss/font-awesome";
+
 @import "partials/typography";
 
 @import "partials/grid";
@@ -11,3 +13,7 @@
 @import "partials/hero";
 
 @import "partials/phone";
+
+@import "partials/section";
+
+@import "partials/animation";
