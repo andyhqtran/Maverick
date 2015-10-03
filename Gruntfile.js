@@ -82,12 +82,12 @@ module.exports = function (grunt) {
         dependencies: true,
         devDependencies: true,
         "overrides": {
-          "bootstrap": {
-            "main": [
-              "dist/js/bootstrap.js",
-              "dist/css/bootstrap.css",
-            ]
-          },
+          // "bootstrap": {
+          //   "main": [
+          //     "dist/js/bootstrap.js",
+          //     "dist/css/bootstrap.css",
+          //   ]
+          // },
           "font-awesome": {
             "main": [
               "css/font-awesome.css",
