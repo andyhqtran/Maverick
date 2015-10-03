@@ -1,9 +1,10 @@
 .phone {
   background: url("../img/phone.png");
-  width: 253px;
-  height: 443px;
+  width: 300px;
+  height: 630px;
   margin: 0 auto;
   padding: 92px 22px 95px 25px;
+  box-sizing: border-box;
   overflow: hidden;
 
   // Screen
