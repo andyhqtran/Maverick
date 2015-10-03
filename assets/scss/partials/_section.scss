@@ -153,3 +153,38 @@
     font-size: 18px;
   }
 }
+
+/* Promo Section */
+.promo {
+  &-video {
+    background: url("../img/promo-bg.png") no-repeat center top;
+
+    &-play {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      background: map-get($black, 60);
+      width: 100px;
+      height: 100px;
+      border-radius: 100%;
+      text-align: center;
+      transform: translate(-50%, -50%);
+      cursor: pointer;
+
+      &:before {
+        @extend .fa;
+
+        content: '';
+        color: map-get($white, 100);
+        font-size: 60px;
+        line-height: 100px;
+      }
+    }
+  }
+
+  .laptop {
+    background: url("../img/laptop.png") no-repeat center;
+    background-size: contain;
+    margin: 100px auto 0;
+  }
+}
