@@ -1,9 +1,17 @@
 .section {
   padding: 80px 0;
 
+  //Section Header
   &-header {
     margin: 0 0 80px;
     text-align: center;
+
+    // Alt Header
+    &.alt {
+      h1 {
+        color: map-get($white, 100);
+      }
+    }
 
     span {
       display: block;
@@ -13,10 +21,6 @@
       font-size: 14px;
       letter-spacing: 3px;
       text-transform: uppercase;
-    }
-
-    h1 {
-      font-weight: $regular;
     }
   }
 }
@@ -130,7 +134,22 @@
 
     h3 {
       color: $accent;
-      font-weight: $regular;
     }
+  }
+}
+
+/* Features Section */
+.features {
+  background: $accent url("../img/overlay.png");
+  box-shadow: inset 0 4px 0 map-get($black, 10), inset 0 -4px 0 map-get($black, 10);
+  text-align: center;
+  color: map-get($white, 100);
+
+  h3 {
+    color: inherit;
+  }
+
+  p {
+    font-size: 18px;
   }
 }
